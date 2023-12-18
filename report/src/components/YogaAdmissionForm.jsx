@@ -75,7 +75,7 @@ const  isvalid= validateUserData(); // Implement validation logic (age range etc
       setPaymentStatus("pending");
 
 
-      const response = await fetch("http://localhost:3000/api/yoga-enroll", {
+      const response = await fetch("https://flex-money-backend.onrender.com/api/yoga-enroll", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
